@@ -21,8 +21,8 @@ find_system_proc:
 
 	; 将system的token赋值给本进程,并增加引用计数
 	mov rax, [rax+208h]	
-	and al, 0f0h
-	mov [r8+208h], rax
+	and al, 0f0h ;clear low 4 bits of _EX_FAST_REF structure
+	mov [r8+208h], rax;替换yoken
 	mov r9, 2
 	add [rax-30h], r9
 	
