@@ -1,0 +1,77 @@
+﻿  Assembling ASM-2019-1458.asm...
+  Assembling ASM-2018-8453.asm...
+  Assembling BaseFunc.asm...
+  Assembling ShellCode.asm...
+  base.cpp
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\base.cpp(238,31): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\base.cpp(299,1): error C4533: initialization of 'wc' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\base.cpp(264): message : 参见“wc”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\base.cpp(299): message : 参见“exit”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\base.cpp(361,1): error C4533: initialization of 'wc' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\base.cpp(330): message : 参见“wc”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\base.cpp(361): message : 参见“exit”的声明
+  CVE-2016-3309.cpp
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2016-3309.cpp(126,56): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2016-3309.cpp(147,56): warning C4018: “<”: 有符号/无符号不匹配
+  CVE-2018-8453.cpp
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2018-8453.cpp(153,31): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2018-8453.cpp(237,40): warning C4311: “类型强制转换”: 从“HWND”到“ULONG”的指针截断
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2018-8453.cpp(237,40): warning C4302: “类型强制转换”: 从“HWND”到“ULONG”截断
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2018-8453.cpp(247,1): error C4533: initialization of 'wc' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2018-8453.cpp(214): message : 参见“wc”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2018-8453.cpp(247): message : 参见“exit”的声明
+  CVE-2019-1458.cpp
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(151,1): error C4533: initialization of 'wc' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(60): message : 参见“wc”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(151): message : 参见“exit”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(203,42): warning C4244: “参数”: 从“ULONG64”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(218,44): warning C4244: “参数”: 从“ULONG64”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(221,33): warning C4244: “参数”: 从“ULONG64”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(225,33): warning C4244: “参数”: 从“ULONG64”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(355,1): error C4533: initialization of 'wc' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(310): message : 参见“wc”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2019-1458.cpp(355): message : 参见“exit”的声明
+  CVE-2020-1054.cpp
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2020-1054.cpp(95,31): warning C4244: “参数”: 从“ULONG64”转换到“LONG”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2020-1054.cpp(110,38): warning C4244: “参数”: 从“ULONG64”转换到“DWORD”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2020-1054.cpp(174,54): warning C4309: “参数”: 截断常量值
+  CVE-2021-1732.cpp
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(57,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(77,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(111,47): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(127,47): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(137,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(155,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(227,1): error C4533: initialization of 'mbi' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(213): message : 参见“mbi”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(227): message : 参见“exit”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(235,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(335,1): warning C4311: “类型强制转换”: 从“HMENU”到“LONG”的指针截断
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(335,1): warning C4302: “类型强制转换”: 从“HMENU”到“LONG”截断
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(416,1): error C4533: initialization of 'wndClass' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(300): message : 参见“wndClass”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(416): message : 参见“exit”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(508,1): error C4533: initialization of 'wndClass' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(475): message : 参见“wndClass”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2021-1732.cpp(508): message : 参见“exit”的声明
+  CVE-2022-21882.cpp
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(54,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(74,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(107,47): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(123,47): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(133,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(151,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(202,49): warning C4244: “参数”: 从“QWORD”转换到“int”，可能丢失数据
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(246,1): error C4533: initialization of 'mbi' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(232): message : 参见“mbi”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(246): message : 参见“exit”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(332,1): warning C4311: “类型强制转换”: 从“HMENU”到“LONG”的指针截断
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(332,1): warning C4302: “类型强制转换”: 从“HMENU”到“LONG”截断
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(439,1): error C4533: initialization of 'wc' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(377): message : 参见“wc”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(439): message : 参见“exit”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(439,1): error C4533: initialization of 'wndClass' is skipped by 'goto exit'
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(297): message : 参见“wndClass”的声明
+C:\Users\ZAI\Desktop\Project\cve\exp_x64-master\exp_x64\CVE-2022-21882.cpp(439): message : 参见“exit”的声明
+  exp_x64.cpp
+  正在生成代码...
