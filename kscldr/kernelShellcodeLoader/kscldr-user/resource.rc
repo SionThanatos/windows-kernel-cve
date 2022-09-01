@@ -1,0 +1,3 @@
+#include "resource.h"
+
+RES_DRIVER RCDATA  "../x64/Debug/kscldr/kscldr.sys"
