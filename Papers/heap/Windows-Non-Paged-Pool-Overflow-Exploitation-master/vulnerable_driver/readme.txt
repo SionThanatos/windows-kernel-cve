@@ -1,0 +1,1 @@
+Goal is to exploit the vulnerable driver from low integrity and gain SYSTEM privileges.
