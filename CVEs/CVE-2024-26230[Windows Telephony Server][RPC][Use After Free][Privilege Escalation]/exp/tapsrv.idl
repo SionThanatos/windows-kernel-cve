@@ -1,0 +1,57 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+[
+	uuid(2f5f6520-ca46-1067-b319-00dd010662da),
+	version(1.0)
+]
+
+interface tapsrv {
+    typedef [context_handle] void* PCONTEXT_HANDLE_TYPE;
+    
+    long ClientAttach(
+        [out][context_handle] PCONTEXT_HANDLE_TYPE* pphContext,
+        [in] long lProcessID,
+        [out]long * phAsyncEventsEvent,
+        [in, string] const wchar_t* pszDomainUser,
+        [in, string] wchar_t* pszMachine
+    );
+
+    void ClientRequest(
+        [in] PCONTEXT_HANDLE_TYPE phContext,
+        [in, out, length_is(*plUsedSize), size_is(lNeededSize)] unsigned char* pBuffer,
+        [in] long lNeededSize,
+        [in, out] long* plUsedSize
+     );
+
+    void ClientDetach(
+        [in, out] PCONTEXT_HANDLE_TYPE* pphContext
+    );
+
+};
+
+
+//[
+//	uuid(2f5f6520-ca46-1067-b319-00dd010662da),
+//	version(1.0),
+//]
+//interface tapsrv
+//{
+//
+//	long ClientAttach(
+//		[out][context_handle] void** arg_0,
+//		[in]long arg_1,
+//		[out]long* arg_2,
+//		[in][string] wchar_t* arg_3,
+//		[in][string] wchar_t* arg_4);
+//
+//	void ClientRequest(
+//		[in][context_handle] void* arg_0,
+//		[in][out] /* [DBG] FC_CVARRAY */[size_is(arg_2)][length_is(*arg_3)]char* arg_1/*[] CONFORMANT_ARRAY*/,
+//		[in]long arg_2,
+//		[in][out]long* arg_3);
+//
+//	void ClientDetach(
+//		[in][out][context_handle] void** arg_0);
+//}
